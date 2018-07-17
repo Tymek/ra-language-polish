@@ -23,7 +23,7 @@ module.exports = {
             false: 'Nie',
         },
         page: {
-            list: '%{name} Lista',
+            list: 'Lista %{name}',
             edit: '%{name} #%{id}',
             show: '%{name} #%{id}',
             create: 'Stwórz %{name}',
