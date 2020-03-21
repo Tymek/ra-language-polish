@@ -22,10 +22,13 @@ module.exports = {
             show: 'Pokaż',
             sort: 'Sortuj',
             undo: 'Cofnij',
+            expand: 'Rozwiń',
+            close: 'Zamknij',
         },
         boolean: {
             true: 'Tak',
             false: 'Nie',
+            null: '',
         },
         page: {
             create: 'Stwórz %{name}',
@@ -36,34 +39,33 @@ module.exports = {
             loading: 'Ładowanie',
             not_found: 'Nie znaleziono',
             show: '%{name} #%{id}',
+            empty: 'Nie utworzono %{name}.',
+            invite: 'Czy chcesz dodać nowy?',
         },
         input: {
             file: {
-                upload_several:
-                    'Upuść tutaj pliki aby je wysłać lub kliknij tutaj i wybierz.',
+                upload_several: 'Upuść tutaj pliki aby je wysłać lub kliknij tutaj i wybierz.',
                 upload_single: 'Upuść tutaj plik aby go wysłać lub kliknij i wybierz.',
             },
             image: {
-                upload_several:
-                    'Upuść tutaj obrazy aby je wysłać lub kliknij tutaj i wybierz.',
-                upload_single:
-                    'Upuść tutaj obraz aby go wysłać lub kliknij tutaj i wybierz.',
+                upload_several: 'Upuść tutaj obrazy aby je wysłać lub kliknij tutaj i wybierz.',
+                upload_single: 'Upuść tutaj obraz aby go wysłać lub kliknij tutaj i wybierz.',
             },
             references: {
                 all_missing: 'Nie znaleziono pasujących odnośników.',
-                many_missing:
-                    'Minimum jeden z pasujących odnośników nie jest dostępny.',
-                single_missing:
-                    'Powiązany odnośnik nie jest już dostępny.',
+                many_missing: 'Minimum jeden z pasujących odnośników nie jest dostępny.',
+                single_missing: 'Powiązany odnośnik nie jest już dostępny.',
             },
+            password: {
+                toggle_visible: 'Ukryj hasło',
+                toggle_hidden: 'Pokaż hasło',
+            }
         },
         message: {
             about: 'O',
             are_you_sure: 'Czy jesteś pewien?',
-            bulk_delete_content:
-                'Czy jesteś pewien że chcesz usunąć %{name}? |||| Czy jesteś pewien że chcesz usunąć te %{smart_count} rekorów?',
-            bulk_delete_title:
-                'Usuń %{name} |||| Usuń %{smart_count} %{name} rekordy',
+            bulk_delete_content: 'Czy jesteś pewien że chcesz usunąć %{name}? |||| Czy jesteś pewien że chcesz usunąć te %{smart_count} rekorów?',
+            bulk_delete_title: 'Usuń %{name} |||| Usuń %{smart_count} %{name} rekordy',
             delete_content: 'Czy na pewno chcesz usunąć ten rekord?',
             delete_title: 'Usuń %{name} #%{id}',
             details: 'Szczegóły',
@@ -71,14 +73,12 @@ module.exports = {
             invalid_form: 'Formularz nie jest poprawny, sprawdź błędy.',
             loading: 'Strona jest ładowana, poczekaj tylko chwilę.',
             no: 'Nie',
-            not_found:
-                'Wpisałeś zły URL lub zostałeś niepoprawnie przeniesiony.',
+            not_found: 'Wpisałeś zły URL lub zostałeś niepoprawnie przeniesiony.',
             yes: 'Tak',
         },
         navigation: {
             no_results: 'Nie znaleziono wyników',
-            no_more_results:
-                'Numer strony %{page} znajduje się poza granicą. Spróbuj poprzednią stronę.',
+            no_more_results: 'Numer strony %{page} znajduje się poza granicą. Spróbuj poprzednią stronę.',
             page_out_of_boundaries: 'Numer strony %{page} znajduje się poza granicą',
             page_out_from_end: 'Nie można przejść dalej niż ostatnia strona',
             page_out_from_begin: 'Nie można przejść wcześniej niż pierwsza strona',
@@ -88,6 +88,7 @@ module.exports = {
             prev: 'Poprzednia',
         },
         auth: {
+            auth_check_error: 'Zaloguj się, aby kontynuować',
             user_menu: 'Profil',
             username: 'Nazwa użytkownika',
             password: 'Hasło',
@@ -102,8 +103,8 @@ module.exports = {
             bad_item: 'Niepoprawny element',
             item_doesnt_exist: 'Element nie istnieje',
             http_error: 'Problem z połączeniem serwera',
-            data_provider_error:
-                'Błąd przy pobieraniu danych. Sprawdź konsolę.',
+            data_provider_error: 'Błąd przy pobieraniu danych. Sprawdź konsolę.',
+            i18n_error: 'Nie można załadować tłumaczeń dla określonego języka',
             canceled: 'Akcja anulowana',
             logged_out: 'Twoja sesja wygasła, zaloguj się ponownie.',
         },
