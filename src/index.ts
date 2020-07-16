@@ -1,4 +1,6 @@
-module.exports = {
+import { TranslationMessages } from 'ra-core';
+
+const polishMessages: TranslationMessages = {
     ra: {
         action: {
             add_filter: 'Dodaj filtr',
@@ -121,3 +123,5 @@ module.exports = {
         },
     },
 };
+
+export default polishMessages
