@@ -26,7 +26,13 @@
     "react-admin",
     "translation"
   ],
-  "author": "Tomasz Skorupka",
+  "contributors": [
+    { "name": "Tomasz Skorupka" },
+    {
+      "name": "Tymoteusz Czech",
+      "url": "https://www.tymek.cz"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tskorupka/ra-language-polish/issues"
