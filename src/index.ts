@@ -26,6 +26,9 @@ const polishMessages: TranslationMessages = {
             undo: 'Cofnij',
             expand: 'Rozwiń',
             close: 'Zamknij',
+            unselect: 'Odznacz',
+            open_menu: 'Otwórz menu',
+            close_menu: 'Zamknij menu',
         },
         boolean: {
             true: 'Tak',
@@ -77,6 +80,7 @@ const polishMessages: TranslationMessages = {
             no: 'Nie',
             not_found: 'Wpisałeś zły URL lub zostałeś niepoprawnie przeniesiony.',
             yes: 'Tak',
+            unsaved_changes: 'Niektóre zmiany nie zostały zapisane. Czy jesteś pewiem, że chcesz je zignorować?',
         },
         navigation: {
             no_results: 'Nie znaleziono wyników',
