@@ -80,7 +80,7 @@ const polishMessages: TranslationMessages = {
             no: 'Nie',
             not_found: 'Wpisałeś zły URL lub zostałeś niepoprawnie przeniesiony.',
             yes: 'Tak',
-            unsaved_changes: 'Niektóre zmiany nie zostały zapisane. Czy jesteś pewiem, że chcesz je zignorować?',
+            unsaved_changes: 'Niektóre zmiany nie zostały zapisane. Czy jesteś pewien, że chcesz je zignorować?',
         },
         navigation: {
             no_results: 'Nie znaleziono wyników',
