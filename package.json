@@ -1,6 +1,6 @@
 {
   "name": "ra-language-polish",
-  "version": "1.3.4",
+  "version": "1.3.5",
   "description": "Polish messages for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
   "main": "lib/index.js",
   "module": "esm/index.js",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tskorupka/ra-language-polish.git"
+    "url": "git+https://github.com/tymek/ra-language-polish.git"
   },
   "keywords": [
     "react",
