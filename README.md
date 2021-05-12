@@ -1,11 +1,13 @@
 # Polish Messages for React-Admin
+[![Build](https://github.com/Tymek/ra-language-polish/actions/workflows/ci.yml/badge.svg)](https://github.com/Tymek/ra-language-polish/actions)
 
 Polish messages for [react-admin](https://github.com/marmelab/react-admin), the frontend framework for building admin applications on top of REST/GraphQL services.
 
 ## Installation
 
 ```sh
-npm install --save ra-language-polish
+npm install ra-language-polish
+yarn add ra-language-polish
 ```
 
 ## Usage
@@ -14,7 +16,7 @@ npm install --save ra-language-polish
 import polishMessages from 'ra-language-polish';
 
 const messages = {
-    'pl': polishMessages,
+  'pl': polishMessages,
 };
 
 <Admin locale="pl" messages={messages}>
