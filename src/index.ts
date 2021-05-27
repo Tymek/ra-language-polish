@@ -81,7 +81,7 @@ const polishMessages: TranslationMessages = {
       delete_content: "Czy na pewno chcesz usunąć ten rekord?",
       delete_title: "Usuń %{name} #%{id}",
       details: "Szczegóły",
-      error: "Wsytąpił błąd, twoje żądanie nie zostało ukończone",
+      error: "Wystąpił błąd, twoje żądanie nie zostało ukończone",
       invalid_form: "Formularz nie jest poprawny, sprawdź błędy.",
       loading: "Strona jest ładowana, poczekaj tylko chwilę.",
       no: "Nie",
