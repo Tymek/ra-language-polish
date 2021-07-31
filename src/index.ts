@@ -75,7 +75,7 @@ const polishMessages: TranslationMessages = {
       about: "O",
       are_you_sure: "Czy jesteś pewien?",
       bulk_delete_content:
-        "Czy jesteś pewien że chcesz usunąć %{name}? |||| Czy jesteś pewien że chcesz usunąć te %{smart_count} rekorów?",
+        "Czy jesteś pewien że chcesz usunąć %{name}? |||| Czy jesteś pewien że chcesz usunąć te %{smart_count} rekordów?",
       bulk_delete_title:
         "Usuń %{name} |||| Usuń %{smart_count} %{name} rekordy",
       delete_content: "Czy na pewno chcesz usunąć ten rekord?",
