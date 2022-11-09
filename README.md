@@ -39,14 +39,14 @@ In most cases, the `i18nProvider` will contain translations for both react-admin
 
 If you want to display the interface in another language than English by default, you have to set up an `i18nProvider` that provides the translation for all the keys used by react-admin. Fortunately, the react-admin community has already written translations for more than 40 locales. Check the [list of available locales](./TranslationLocales.md) to find the locale you're looking for.
 
-For instance, to change the interface to French, install the `ra-language-french` npm package, then use it in a custom `i18nProvider`, as follows:
+For instance, to change the interface to Polish, install the `ra-language-polish` npm package, then use it in a custom `i18nProvider`, as follows:
 
 ```jsx
 // in src/i18nProvider.js
 import polyglotI18nProvider from 'ra-i18n-polyglot';
-import fr from 'ra-language-french';
+import pl from 'ra-language-polish';
 
-export const i18nProvider = polyglotI18nProvider(() => fr, 'fr');
+export const i18nProvider = polyglotI18nProvider(() => pl, 'pl');
 ```
 
 **Tip**: The `ra-i18n-polyglot` package allows to build an `i18nProvider` based on translation messages. It relies on [the Polyglot.js library](https://airbnb.io/polyglot.js/).
