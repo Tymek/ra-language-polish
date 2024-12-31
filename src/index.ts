@@ -8,6 +8,7 @@ const polishMessages: TranslationMessages = {
       back: "Powrót",
       bulk_actions: "Zaznaczono %{smart_count}",
       cancel: "Anuluj",
+      clear_array_input: "Wyczyść",
       clear_input_value: "Wyczyść",
       clone: "Sklonuj",
       confirm: "Potwierdź",
@@ -30,6 +31,16 @@ const polishMessages: TranslationMessages = {
       open_menu: "Otwórz menu",
       close_menu: "Zamknij menu",
       create_item: "Utwórz element",
+      update: "Aktualizuj",
+      move_up: "Przesuń w górę",
+      move_down: "Przesuń w dół",
+      open: "Otwórz",
+      remove_all_filters: "Usuń wszystkie filtry",
+      select_all: "Zaznacz wszystkie",
+      select_columns  : "Wybierz kolumny",
+      select_row: "Zaznacz wiersz",
+      toggle_theme: "Zmień motyw",
+      update_application: "Aktualizuj aplikację",      
     },
     boolean: {
       true: "Tak",
@@ -47,6 +58,8 @@ const polishMessages: TranslationMessages = {
       show: "%{name} #%{id}",
       empty: "Nie utworzono %{name}.",
       invite: "Czy chcesz dodać nowy?",
+      access_denied: "Brak dostępu",
+      authentication_error: "Błąd autoryzacji",
     },
     input: {
       file: {
@@ -74,10 +87,14 @@ const polishMessages: TranslationMessages = {
     message: {
       about: "O",
       are_you_sure: "Czy jesteś pewien?",
+      auth_error: "Nieprawidłowe dane logowania",
+      clear_array_input: "Czy na pewno chcesz wyczyścić wszystkie dane?",
       bulk_delete_content:
         "Czy jesteś pewien że chcesz usunąć %{name}? |||| Czy jesteś pewien że chcesz usunąć te %{smart_count} rekordów?",
       bulk_delete_title:
         "Usuń %{name} |||| Usuń %{smart_count} %{name} rekordy",
+      bulk_update_content:  "Czy na pewno chcesz zaktualizować %{name}? |||| Czy na pewno chcesz zaktualizować te %{smart_count} rekordy?",
+      bulk_update_title: "Aktualizuj %{name} |||| Aktualizuj %{smart_count} %{name} rekordy",
       delete_content: "Czy na pewno chcesz usunąć ten rekord?",
       delete_title: "Usuń %{name} #%{id}",
       details: "Szczegóły",
@@ -89,6 +106,8 @@ const polishMessages: TranslationMessages = {
       yes: "Tak",
       unsaved_changes:
         "Niektóre zmiany nie zostały zapisane. Czy jesteś pewien, że chcesz je zignorować?",
+      access_denied: "Brak dostępu",
+      authentication_error: "Błąd autoryzacji",
     },
     navigation: {
       no_results: "Nie znaleziono wyników",
@@ -102,6 +121,14 @@ const polishMessages: TranslationMessages = {
       next: "Następna",
       prev: "Poprzednia",
       skip_nav: "Przejdź do treści",
+      clear_filters: "Wyczyść filtry",
+      current_page: "Aktualna strona",
+      first: "Pierwsza",
+      last: "Ostatnia",
+      page: "Strona",
+      no_filtered_results: "Brak wyników po filtrowaniu",
+      partial_page_range_info: "",
+      previous: "Poprzednia",
     },
     sort: {
         sort_by: 'Sortuj wg. %{field} %{order}',
@@ -129,6 +156,8 @@ const polishMessages: TranslationMessages = {
       i18n_error: "Nie można załadować tłumaczeń dla określonego języka",
       canceled: "Akcja anulowana",
       logged_out: "Twoja sesja wygasła, zaloguj się ponownie.",
+      application_update_available: "Dostępna jest nowa wersja aplikacji. Odśwież stronę.",
+      not_authorized: "Brak dostępu",
     },
     validation: {
       required: "Wymagany",
@@ -141,6 +170,17 @@ const polishMessages: TranslationMessages = {
       oneOf: "Musi być jednym z: %{options}",
       regex: "Musi pasować do konkretnego formatu (regexp): %{pattern}",
     },
+    saved_queries: {
+      label: "Zapisane zapytania",
+      query_name: "Nazwa zapytania",
+      new_label: "Nowe zapytanie",
+      new_dialog_title: "Zapisz zapytanie",
+      remove_label: "Usuń zapisane zapytanie",
+      remove_label_with_name: "Usuń zapisane zapytanie \"%{name}\"",
+      remove_dialog_title: "Usuń zapisane zapytanie",      
+      remove_message: "Usuń zapisane zapytanie",
+      help: "Zapisane zapytania pozwalają na zapisanie złożonych zapytań, które można później łatwo odzyskać. Zapisane zapytania są dostępne dla wszystkich użytkowników.",
+    }
   },
 };
 
