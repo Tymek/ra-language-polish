@@ -37,7 +37,7 @@ const polishMessages: TranslationMessages = {
       open: "Otwórz",
       remove_all_filters: "Usuń wszystkie filtry",
       reset: "Resetuj",
-      search_columns: "Szukaj kolumn",
+      search_columns: "Szukaj kolumny",
       select_all: "Zaznacz wszystkie",
       select_all_button: "Zaznacz wszystkie",
       select_columns: "Wybierz kolumny",
